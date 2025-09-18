@@ -7,7 +7,14 @@ height = 5.7 # for real data
 married = True # for bool data
 gender = 'M' # for character data
 
-#Output 
+#Identify variable datatype
+print("Name : ", type(name))
+print("Age : ",type(age))
+print("Height : ",type(height))
+print("Gender : ",type(gender))
+print("Married : ",type(married))
+
+# Output
 print("Name : ",name)
 print("Age : ",age)
 print("Height : ",height)
