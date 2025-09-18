@@ -33,3 +33,20 @@ c=10
 c+=20    #c*=20  c-=20  c=c+20
 print(c) 
 
+#Identity Operators(is,is not)
+# Identity operators check whether two variables refer to the same object in memory
+
+a=10
+b=10
+print(a is b)
+print(a is not b)
+
+#Membership operator (in,not in)
+# in → Checks if a value exists in a sequence (like list, string, tuple, set, or dictionary keys)
+#not in → Checks if a value does NOT exist in a sequence
+
+fruits = ["apple", "banana", "mango"]
+
+print("apple" in fruits)       # True → apple is in the list
+print("grapes" in fruits)      # False → grapes is not in the list
+print("banana" not in fruits)  # False → banana is in the list
